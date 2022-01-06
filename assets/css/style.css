@@ -585,6 +585,11 @@ p {
         position: absolute;
         right: 60px;
         top: 7px; } }
+        @media (max-width: 500px){
+          .navbar-brand{
+            width: 200px;
+          }
+        }
     .navbar-area .navbar .navbar-btn .main-btn:hover {
       background-color: #fff;
       color: #1863ff; }
